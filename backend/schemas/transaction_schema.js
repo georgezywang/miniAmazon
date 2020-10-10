@@ -1,4 +1,4 @@
-import { Double, Int32 } from 'bson';
+import { Int32, Double } from 'bson';
 import mongoose from 'mongoose';
 
 const transaction = new mongoose.Schema
