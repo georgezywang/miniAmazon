@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="createTable()">
+
+<h3>
+   	Click the "Add New Item" button to add a new item to the cart. <br> Enter the item, price, quantity, and subtotal. in each row and press the "Submit" button.
+</h3>
+    
+<p>
+<input type="button" id="addRow" value="Add New Row" onclick="addRow()" />
+</p>
+
+<div id="cont"></div>  <!-- the container to add the table -->
+
+<p>
+<input type="button" id="bt" value="Submit" onclick="submit()" />
+</p>
+    
+<p id='output'></p>
+</body>
+
+<script type = 'text/javascript' src="shoppingcart.js">
+</script>
+</html>
